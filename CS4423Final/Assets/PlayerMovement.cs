@@ -14,6 +14,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask jumpableEnemy;
     [SerializeField] private LayerMask jumpableBlock;
 
+    [Header("Wall Jump System")]
+    public Transform wallCheck;
+    bool isWallTouch;
+    bool isSliding;
+    public float wallSlidingSpeed;
+
 
 
 
@@ -38,10 +44,29 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, jump));
         }
 
+        isWallTouch = Physics2D.OverlapBox(wallCheck.position, new Vector2(0.05f, 0.8f), 0, jumpableGround);
+        if(isWallTouch && IsGrounded() != true && move != 0)
+        {
+            isSliding = true;
+        }
+        else
+        {
+            isSliding = false;
+        }
+
         UpdateAnimation();
 
 
         
+    }
+
+
+    private void FixedUpdate()
+    {
+        if (isSliding)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
     }
 
     private void UpdateAnimation()
