@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask jumpableBlock;
 
 
+
+
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -57,6 +59,11 @@ public class PlayerMovement : MonoBehaviour
 
         }
     }
+
+
+
+
+
 
     private bool IsGrounded()
     {
