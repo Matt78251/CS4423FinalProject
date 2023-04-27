@@ -11,9 +11,12 @@ public class StartMenu : MonoBehaviour
     }
     public void HowToPlay()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
-
+    public void Options()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
+    }
     public void QuitGame()
     {
         Application.Quit();

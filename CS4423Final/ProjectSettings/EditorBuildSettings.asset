@@ -12,9 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 395bd55290686ab4e9032c8aa753914e
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 4adf1022f891a9b4cadf0b62f9fa2269
+  - enabled: 1
     path: Assets/Scenes/EndMenu.unity
     guid: 14ba51a7fc164e04981d0a2dfa3e69ee
   - enabled: 1
+    path: Assets/Scenes/CompletionMenu.unity
+    guid: c0abc821e41b2d9419578745c8996938
+  - enabled: 1
     path: Assets/Scenes/HowToPlayMenu.unity
     guid: c91faf977d31fac4a99d70d05c0ce5d1
+  - enabled: 1
+    path: Assets/Scenes/OptionsMenu.unity
+    guid: 29e776c9e8f85f54f82168f55470b642
   m_configObjects: {}
