@@ -11016,6 +11016,7 @@ GameObject:
   - component: {fileID: 1570609102}
   - component: {fileID: 1570609101}
   - component: {fileID: 1570609100}
+  - component: {fileID: 1570609105}
   m_Layer: 7
   m_Name: Enemy3
   m_TagString: Enemy
@@ -11156,6 +11157,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1570609105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570609098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b044d8628c730445aeffdcc62006973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 1, g: 1, b: 1, a: 1}
+  color2: {r: 0, g: 1, b: 0.007930756, a: 1}
 --- !u!1 &1580945768
 GameObject:
   m_ObjectHideFlags: 0
@@ -12209,6 +12224,7 @@ GameObject:
   - component: {fileID: 1911418330}
   - component: {fileID: 1911418329}
   - component: {fileID: 1911418328}
+  - component: {fileID: 1911418333}
   m_Layer: 7
   m_Name: Enemy5
   m_TagString: Enemy
@@ -12349,6 +12365,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1911418333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911418326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b044d8628c730445aeffdcc62006973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 1, g: 1, b: 1, a: 1}
+  color2: {r: 0, g: 1, b: 0.007930756, a: 1}
 --- !u!114 &1918597482 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9150304099633722447, guid: 8bceed10d5fbc6c40a6bd04729128a0b, type: 3}

@@ -69,6 +69,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
+
     private void UpdateAnimation()
     {
         if (move > 0f)

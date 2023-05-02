@@ -8014,6 +8014,7 @@ GameObject:
   - component: {fileID: 578085125}
   - component: {fileID: 578085124}
   - component: {fileID: 578085123}
+  - component: {fileID: 578085128}
   m_Layer: 7
   m_Name: Enemy6
   m_TagString: Enemy
@@ -8154,6 +8155,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &578085128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578085121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b044d8628c730445aeffdcc62006973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 1, g: 1, b: 1, a: 1}
+  color2: {r: 0, g: 1, b: 0.007930756, a: 1}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -11059,6 +11074,7 @@ GameObject:
   - component: {fileID: 1580945770}
   - component: {fileID: 1580945769}
   - component: {fileID: 1580945774}
+  - component: {fileID: 1580945775}
   m_Layer: 7
   m_Name: Enemy2
   m_TagString: Enemy
@@ -11199,6 +11215,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   playerHealth: {fileID: 1354068398}
+--- !u!114 &1580945775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580945768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b044d8628c730445aeffdcc62006973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 1, g: 1, b: 1, a: 1}
+  color2: {r: 0, g: 1, b: 0.007930756, a: 1}
 --- !u!1 &1588163201
 GameObject:
   m_ObjectHideFlags: 0
@@ -12725,6 +12755,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color1.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color1.b
+      value: 0.5157232
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color1.g
+      value: 0.5157232
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color1.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color2.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color2.b
+      value: 0.53459114
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color2.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color2.r
+      value: 0.60840625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color3.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color3.b
+      value: 0.89703906
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color3.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097315, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: color3.r
+      value: 0.61006284
+      objectReference: {fileID: 0}
     - target: {fileID: 3067843229306097318, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
       propertyPath: deathInt
       value: 3
@@ -12737,6 +12815,18 @@ PrefabInstance:
       propertyPath: artifactsText
       value: 
       objectReference: {fileID: 1731564853}
+    - target: {fileID: 3067843229306097327, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097327, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067843229306097327, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3525546928244516150, guid: 0f7686c45a175eb46b2afaacc368adf8, type: 3}
       propertyPath: m_Name
       value: MainCharacter
